@@ -1,0 +1,5 @@
+*.zip
+__pycache__/
+_build/
+*preview*/
+.DS_Store
