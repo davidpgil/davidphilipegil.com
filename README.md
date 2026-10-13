@@ -25,4 +25,4 @@ It is a plain static site with no server-side code.
 
 Inter and Space Grotesk are licensed under the SIL Open Font License 1.1. The license texts are in `fonts/`.
 
-The resume PDF is not included in this repository; it is served from the live site.
+The resume PDF, `David_Philipe_Gil_Resume.pdf`, is included at the repository root.
