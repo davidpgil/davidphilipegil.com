@@ -1,0 +1,126 @@
+{
+ "marquee": [
+  "Python",
+  "JavaScript",
+  "Adobe ExtendScript",
+  "Photoshop",
+  "After Effects",
+  "Illustrator",
+  "HTML5",
+  "ComfyUI",
+  "Stable Diffusion",
+  "Spine",
+  "Git",
+  "Perforce"
+ ],
+ "capabilities": [
+  {
+   "title": "Creative tools",
+   "text": "Python, JavaScript, and ExtendScript tools that automate repeatable production work for artists."
+  },
+  {
+   "title": "Pipelines",
+   "text": "JSON-driven localization and HTML5 layout systems with scripted export to production."
+  },
+  {
+   "title": "Generative AI",
+   "text": "ComfyUI and Stable Diffusion workflows, plus agent harnesses and local agentic LLM inference."
+  },
+  {
+   "title": "Enablement",
+   "text": "Onboarding, troubleshooting, artist training, and clear workflow guides that teams repeat with confidence."
+  }
+ ],
+ "resume": {
+  "summary": "Creative technologist with 7 years of hands-on work inside a creative team, keeping its tools running, improving what was already built, and building new solutions around real artist needs. I turn artist feedback into tool improvements, automate repeatable production work so artists have more time for creative work, and teach each workflow to the team.",
+  "skills": [
+   {
+    "name": "Code",
+    "text": "Python, JavaScript, Adobe ExtendScript, JSON, jQuery, HTML, CSS"
+   },
+   {
+    "name": "Version control",
+    "text": "Git and Perforce"
+   },
+   {
+    "name": "Creative tooling",
+    "text": "Photoshop, Illustrator, After Effects, InDesign, Figma, Spine"
+   },
+   {
+    "name": "Generative AI",
+    "text": "ComfyUI and Stable Diffusion image workflows; agent harnesses and local agentic LLM inference"
+   },
+   {
+    "name": "Enablement",
+    "text": "User support, onboarding, troubleshooting, artist training, workflow guides"
+   }
+  ],
+  "jobs": [
+   {
+    "title": "Technical Artist",
+    "company": "High 5 Games",
+    "when": "Feb 2018 – Jul 2025",
+    "where": "New York, NY",
+    "points": [
+     "Owned tool support for artists: install help, onboarding, triage, troubleshooting, and fixes",
+     "Built Python, JavaScript, and ExtendScript tools that automated repeatable production work",
+     "Built a JSON-driven Photoshop pipeline that turned one approved design into variants in many languages",
+     "Built an HTML5 and jQuery game-rules system with scripted export to production",
+     "Turned artist feedback into prioritized fixes and features, shipped in Git and Perforce",
+     "Trained artists on tools and export workflows and documented each workflow"
+    ]
+   },
+   {
+    "title": "Generative AI Artist and Creative Tools Builder",
+    "company": "Self-Employed",
+    "when": "Feb 2026 – Present",
+    "where": "Remote",
+    "points": [
+     "Build ComfyUI and Stable Diffusion workflows with Python helpers for generation, upscaling, and cleanup",
+     "Work with agent harnesses and local agentic LLM inference on my own hardware"
+    ]
+   },
+   {
+    "title": "Digital Production Artist, Contract",
+    "company": "Tiffany & Co.",
+    "when": "Oct 2017 – Feb 2018",
+    "where": "New York, NY",
+    "points": [
+     "Adapted brand assets for web, digital billboard, and campaign formats in Photoshop and After Effects"
+    ]
+   },
+   {
+    "title": "Digital Graphic Designer",
+    "company": "High 5 Games",
+    "when": "Jan 2014 – Sep 2017",
+    "where": "New York, NY",
+    "points": [
+     "Produced and localized game logos and assets across many locales, with format checks and QA"
+    ]
+   },
+   {
+    "title": "Moderator and Digital Artist, Part-time",
+    "company": "QiDao Protocol",
+    "when": "Jan 2021 – Sep 2026",
+    "where": "Remote",
+    "points": [
+     "Wrote Python scripts to pull, process, and chart business metrics; designed assets for community campaigns"
+    ]
+   },
+   {
+    "title": "Digital Artist and Technical Artist",
+    "company": "Powerhead Games, Sifteo, and others",
+    "when": "2000 – 2013",
+    "where": "New York, NY and Remote",
+    "points": [
+     "Planned art workflows and specs for mobile and handheld games; built Photoshop batch automations"
+    ]
+   }
+  ],
+  "education": [
+   "BFA, Computer Art · School of Visual Arts",
+   "Frontend Web Development Nanodegree · Udacity",
+   "C and C++ Programming · NYU SPS"
+  ]
+ }
+}

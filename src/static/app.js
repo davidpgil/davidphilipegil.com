@@ -3,17 +3,18 @@ d.documentElement.classList.add('js');
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{rootMargin:'0px 0px -8% 0px'});
 const rv=el=>io.observe(el);d.querySelectorAll('.rv').forEach((el,i)=>{el.style.setProperty('--d',(i%4)*70+'ms');rv(el)});
 // header: sentinel observer instead of scroll handler
-const hd=d.querySelector('header.site'),sn=d.createElement('div');sn.style.cssText='position:absolute;top:0;height:20px;width:1px';d.body.prepend(sn);new IntersectionObserver(e=>hd.classList.toggle('scrolled',!e[0].isIntersecting)).observe(sn);
+const hd=d.querySelector('header.site'),sn=d.createElement('div');sn.className='sentinel';d.body.prepend(sn);new IntersectionObserver(e=>hd.classList.toggle('scrolled',!e[0].isIntersecting)).observe(sn);
 const mb=d.querySelector('.menu');mb&&(mb.onclick=()=>{const o=hd.classList.toggle('open');mb.setAttribute('aria-expanded',o)});
 // featured rotation
 const fb=d.querySelector('.bento.feat'),FD=w.FEAT;
 if(fb&&FD){const sh=a=>{for(let i=a.length;i--;){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
  const q=sh(FD.slice()),tiles=[...fb.querySelectorAll('.tile')],put=(t,p)=>{t.href=p.u;t.dataset.cat=p.c;t.classList.toggle('contain',!!p.k);const im=t.querySelector('img');im.src=p.i;im.srcset=p.s||'';im.alt=p.t+' cover';im.classList.toggle('pixel',!!p.x);t.querySelector('.cat').textContent=p.c;t.querySelector('h3').textContent=p.t;t.querySelector('.tools').textContent=p.o};
- tiles.forEach((t,i)=>put(t,q[i]));let nx=tiles.length%q.length,sl=0,hov=0,vis=1;
+ tiles.forEach((t,i)=>put(t,q[i]));let nx=tiles.length%q.length,sl=0,hov=0,vis=1,pz=0;
+ const tb=d.querySelector('.feat-toggle');if(tb&&!rm){tb.hidden=false;tb.onclick=()=>{pz=!pz;tb.dataset.paused=pz?1:0;tb.querySelector('.lbl').textContent=pz?'Play':'Pause';tb.setAttribute('aria-label',pz?'Play featured project rotation':'Pause featured project rotation')};tb.setAttribute('aria-label','Pause featured project rotation')}
  const pre=()=>{const p=q[nx%q.length];const i=new Image();i.decoding='async';i.src=p.i};pre();
  fb.addEventListener('pointerenter',()=>hov=1);fb.addEventListener('pointerleave',()=>hov=0);fb.addEventListener('focusin',()=>hov=1);fb.addEventListener('focusout',()=>hov=0);
  new IntersectionObserver(e=>vis=e[0].isIntersecting).observe(fb);
- if(!rm)setInterval(()=>{if(hov||!vis||d.hidden)return;const shown=new Set(tiles.map(t=>t.getAttribute('href')));let p=q[nx%q.length],g=0;while(shown.has(p.u)&&g++<q.length){nx++;p=q[nx%q.length]}
+ if(!rm)setInterval(()=>{if(pz||hov||!vis||d.hidden)return;const shown=new Set(tiles.map(t=>t.getAttribute('href')));let p=q[nx%q.length],g=0;while(shown.has(p.u)&&g++<q.length){nx++;p=q[nx%q.length]}
   const t=tiles[sl];sl=(sl+1)%tiles.length;nx++;const im=new Image();im.src=p.i;(im.decode?im.decode():Promise.resolve()).catch(()=>{}).then(()=>{const ph=t.querySelector('.ph'),o=ph.querySelector('img'),n=o.cloneNode();n.srcset=p.s||'';n.src=p.i;n.alt=p.t+' cover';n.classList.toggle('pixel',!!p.x);n.className+=' xf';ph.appendChild(n);t.classList.add('swap');raf(()=>raf(()=>{n.classList.add('on');t.classList.toggle('contain',!!p.k)}));setTimeout(()=>{o.remove();n.classList.remove('xf','on');put(t,p);t.classList.remove('swap');pre()},650)})},3000)}
 if(fine&&!rm){
  // tilt: rAF throttled, transform only

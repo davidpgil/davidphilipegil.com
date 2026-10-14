@@ -1,0 +1,871 @@
+{
+ "projects": [
+  {
+   "slug": "psd-localization-extendscript",
+   "title": "Localization Pipeline Script",
+   "category": "Tools & Automation",
+   "summary": "A script that translates a specially formatted Photoshop file based on a specially formatted JSON file, built while working at High 5 Games. The video shows the script in action.",
+   "tools": [
+    "Adobe Photoshop",
+    "ExtendScript Toolkit"
+   ],
+   "cover": {
+    "src": "img/psd-localization-extendscript-cover.webp",
+    "w": 900,
+    "h": 900
+   },
+   "hero": {
+    "src": "img/psd-localization-extendscript-hero.webp",
+    "w": 1600,
+    "h": 1600,
+    "alt": "Purple Welcome badge with a crown and Hello World ribbon beside a JSX script icon"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "w8 h2",
+   "home_tile": "w8 h2",
+   "blocks": [
+    {
+     "type": "video",
+     "src": "https://www-ccv.adobe.io/v1/player/ccv/D9jk3ymXEFq/embed?api_key=behance1&bgcolor=%23191919"
+    }
+   ]
+  },
+  {
+   "slug": "multipage-dynamic-casino-game-rules",
+   "title": "Multipage Dynamic Game Rules",
+   "category": "Tools & Automation",
+   "summary": "These pages were laid out in HTML5. High 5 Games needed the final pages as JPEGs, so I wrote scripts that capture image snapshots of the HTML layout using PhantomJS, a scriptable headless web browser.",
+   "tools": [
+    "Adobe Photoshop",
+    "HTML5",
+    "JavaScript",
+    "CSS3"
+   ],
+   "cover": {
+    "src": "img/multipage-dynamic-casino-game-rules-cover.webp",
+    "w": 900,
+    "h": 900
+   },
+   "hero": {
+    "src": "img/multipage-dynamic-casino-game-rules-hero.webp",
+    "w": 1600,
+    "h": 1600,
+    "alt": "Triple Monkey game rules title screen built in HTML5, with the HTML5 logo above"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-1.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Free Games Bonus rules: three bonus symbols on reels 2, 3 and 4 start the feature and award 8 free games"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-2.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Paytable screen with award values for the high-paying symbols"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-3.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Paytable screen with award values for the card symbols A, K, Q, J and 5"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-4.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Wild symbol rules listing which symbols it substitutes for"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-5.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Free Games Bonus rules: bonus symbols during free games award additional free games"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-6.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Find Your Fortune Bonus trigger rules, with selectable colored bonuses"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-7.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Find Your Fortune Bonus tiers, each with a different number of options"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-8.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Explanation that different awards are available for each tier depending on the chosen bonus"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-9.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Left Green Bonus award tables for tiers 1 and 2"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-10.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Award tables for tiers 3 and 4"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-11.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Award table for tier 5"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-12.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Middle Yellow Bonus award tables for tiers 1 and 2"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-13.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Award tables for tiers 3 and 4"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-14.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Award table for tier 5"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-15.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Right Red Bonus award tables for tiers 1 and 2"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-16.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Award tables for tiers 3 and 4"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-17.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Award table for tier 5"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-18.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Jackpot rules: bonus symbols on all reels award the Mini, Minor, Major and Grand jackpots"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-19.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Paytable screen in an alternate green header theme"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-20.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Card symbol paytable in the green header theme"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-21.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Wild symbol substitution rules in the green header theme"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-22.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Ways rules: the game plays on 720 ways, wins pay left to right on adjacent reels"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-23.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Game rules covering highest win per way, multipliers and malfunctions"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-24.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Return to player and responsible play information"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-25.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Interface guide explaining the spin, bet, credit and win meters"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-26.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "General rules about awards, ties and disconnections"
+      },
+      {
+       "src": "img/multipage-dynamic-casino-game-rules-27.webp",
+       "w": 724,
+       "h": 408,
+       "alt": "Triple Monkey closing screen with the logo and legal text"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "casino-game-production",
+   "title": "Casino Game Production",
+   "category": "Motion",
+   "summary": "Motion graphics and game art production for casino games.",
+   "tools": [
+    "Adobe After Effects",
+    "Spine",
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+   ],
+   "cover": {
+    "src": "img/casino-game-production-cover.webp",
+    "w": 900,
+    "h": 500
+   },
+   "hero": {
+    "src": "img/casino-game-production-hero.webp",
+    "w": 1600,
+    "h": 889,
+    "alt": "Firerush 77 Sevens slot game title art with flaming red sevens, a cherry and a diamond"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "video",
+     "src": "https://www.youtube-nocookie.com/embed/kfxO3Yz9Goo?si=jZplWcTWY4NCTmwE&start=34"
+    }
+   ]
+  },
+  {
+   "slug": "luxury-banner-email",
+   "title": "Luxury Banner & Email",
+   "category": "Marketing Design",
+   "summary": "Banner and email marketing design for a luxury brand.",
+   "tools": [
+    "Adobe Photoshop"
+   ],
+   "cover": {
+    "src": "img/luxury-banner-email-cover.webp",
+    "w": 900,
+    "h": 1949
+   },
+   "hero": {
+    "src": "img/luxury-banner-email-hero.webp",
+    "w": 1125,
+    "h": 2436,
+    "alt": "Tiffany and Co. Believe In Love mobile banner with a black and white photo of hands wearing rings above a diamond engagement ring"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "h2",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/luxury-banner-email-1.webp",
+       "w": 1125,
+       "h": 2436,
+       "alt": "Tiffany and Co. True Believe In Love mobile banner: black and white photo of a couple holding hands above a close-up of a diamond solitaire ring, with Tiffany blue tape accents"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/luxury-banner-email-2.webp",
+       "w": 600,
+       "h": 5484,
+       "alt": "Long Tiffany and Co. marketing email with Tiffany blue header, necklace, earring, pendant and bracelet product shots, an illustrated store window, and footer links"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cryptocurrency-believe-in-someething",
+   "title": "Believe in someETHing",
+   "category": "Motion",
+   "summary": "An animated cryptocurrency piece about Ethereum.",
+   "tools": [
+    "Adobe After Effects",
+    "Adobe Illustrator",
+    "Adobe Photoshop"
+   ],
+   "cover": {
+    "src": "img/cryptocurrency-believe-in-someething-cover.webp",
+    "w": 900,
+    "h": 506
+   },
+   "hero": {
+    "src": "img/cryptocurrency-believe-in-someething-hero.webp",
+    "w": 1600,
+    "h": 900,
+    "alt": "Title card reading believe in someETHing with the Ethereum diamond replacing the letters, QiDao logo in the corner"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "w8",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "video",
+     "src": "https://www-ccv.adobe.io/v1/player/ccv/NXWjun4HXpB/embed?api_key=behance1&bgcolor=%23191919"
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/cryptocurrency-believe-in-someething-1.webp",
+       "w": 1280,
+       "h": 946,
+       "alt": "QiDao campaign graphic on a dark cloud pattern: Vote weekly on Aerodrome for MAI plus USDC Classic and get your share of 4000 MAI, with Base branding"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "instructional-video",
+   "title": "Instructional Video",
+   "category": "Motion",
+   "summary": "Instructional video titled “How does a predictive model work?”",
+   "tools": [
+    "Adobe After Effects",
+    "Adobe Illustrator"
+   ],
+   "cover": {
+    "src": "img/instructional-video-cover.webp",
+    "w": 900,
+    "h": 506
+   },
+   "hero": {
+    "src": "img/instructional-video-hero.webp",
+    "w": 1600,
+    "h": 900,
+    "alt": "Video frame showing a walking student icon, an arrow, and a graduate icon"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "video",
+     "src": "https://www-ccv.adobe.io/v1/player/ccv/RS6a9ggALqV/embed?api_key=behance1&bgcolor=%23191919"
+    }
+   ]
+  },
+  {
+   "slug": "chinese-casino-game-logos",
+   "title": "Chinese Casino Game Logos",
+   "category": "Game Art",
+   "summary": "Logo designs for Chinese-themed casino games.",
+   "tools": [
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+   ],
+   "cover": {
+    "src": "img/chinese-casino-game-logos-cover.webp",
+    "w": 900,
+    "h": 900
+   },
+   "hero": {
+    "src": "img/chinese-casino-game-logos-hero.webp",
+    "w": 1600,
+    "h": 1600,
+    "alt": "Dragons of Avalon slot logo in ornate green and gold Chinese characters with a glowing blue pearl"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/chinese-casino-game-logos-1.webp",
+       "w": 1600,
+       "h": 2626,
+       "alt": "Dragons of Avalon logo: the full color green and gold Chinese title above a black line version of the same lettering"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/chinese-casino-game-logos-2.webp",
+       "w": 1400,
+       "h": 1347,
+       "alt": "Cherry Mischief English logo above the Chinese version, gold calligraphy over a woman in a flower crown with Super Stacks and Free Games callouts"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/chinese-casino-game-logos-3.webp",
+       "w": 1360,
+       "h": 2480,
+       "alt": "Diamond Fantasy logos: English and Chinese title art with a woman and a pink diamond, plus gold and black versions of the Chinese lettering"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/chinese-casino-game-logos-4.webp",
+       "w": 1600,
+       "h": 1257,
+       "alt": "Chang E Reaching the Moon logo in gold, with the Chinese title shown in gold and in black"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/chinese-casino-game-logos-5.webp",
+       "w": 1462,
+       "h": 2637,
+       "alt": "Last Master logo: red English title above red and black versions of the Chinese characters"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "pixel-ui-and-environments",
+   "title": "Pixel UI and Environments",
+   "category": "Game Art",
+   "summary": "Pixel art user interface and environments for a mobile game.",
+   "tools": [
+    "Adobe Photoshop"
+   ],
+   "cover": {
+    "src": "img/pixel-ui-and-environments-cover.webp",
+    "w": 900,
+    "h": 900
+   },
+   "hero": {
+    "src": "img/pixel-ui-and-environments-hero.webp",
+    "w": 1536,
+    "h": 1536,
+    "alt": "Top-down pixel art map of sewer and lab environments with pizza slices, pickups and mutant enemies"
+   },
+   "pixel": true,
+   "contain": false,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "note",
+     "text": "A composition of the different environments in the game."
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/pixel-ui-and-environments-1.webp",
+       "w": 768,
+       "h": 768,
+       "alt": "Composition of top-down pixel environments: sewer tunnels, lab rooms and warehouse floors with pizza, pickups and enemies"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/pixel-ui-and-environments-2.webp",
+       "w": 882,
+       "h": 472,
+       "alt": "Four Sifteo game cubes showing pixel level tiles, with a caption explaining that Leo, Donnie, Raph and Mikey each have a unique attack pattern"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/pixel-ui-and-environments-3.webp",
+       "w": 882,
+       "h": 472,
+       "alt": "Hand holding a Sifteo cube next to other cubes displaying connected pixel map tiles"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "text": "The following are avatars created for a sister game named Cube Buddies."
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/pixel-ui-and-environments-4.webp",
+       "w": 256,
+       "h": 400,
+       "alt": "Cube Buddies avatar art: a green masked cube face with blue eyes on a pepperoni pizza background, above two small green cube characters"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/pixel-ui-and-environments-5.webp",
+       "w": 512,
+       "h": 126,
+       "alt": "Row of red and white horned cube creature avatars holding green staffs, from the Cube Buddies sister game"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "game-pixel-art",
+   "title": "Game Pixel Art",
+   "category": "Game Art",
+   "summary": "Pixel art for a mobile rhythm game.",
+   "tools": [
+    "Adobe Photoshop",
+    "Adobe Illustrator"
+   ],
+   "cover": {
+    "src": "img/game-pixel-art-cover.webp",
+    "w": 816,
+    "h": 992
+   },
+   "hero": {
+    "src": "img/game-pixel-art-hero.webp",
+    "w": 816,
+    "h": 992,
+    "alt": "Pixel art rocker with spiky blue hair leaping with an orange flying V guitar"
+   },
+   "pixel": true,
+   "contain": true,
+   "tile": "h2",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/game-pixel-art-1.webp",
+       "w": 496,
+       "h": 496,
+       "alt": "Pixel art character: a grinning rocker with spiky blue hair, teal pants and sneakers jumping with an orange flying V guitar"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/game-pixel-art-2.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Rhythm game stage in pixel art: a red lane runs between golden carved walls toward a bat-winged boss gate, five target circles at the bottom"
+      },
+      {
+       "src": "img/game-pixel-art-3.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Rhythm game stage with an olive lane between dark stone pillars and a bat-winged boss gate"
+      },
+      {
+       "src": "img/game-pixel-art-4.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Icy blue rhythm game stage with a frozen lane, blue columns and a row of creatures guarding the far gate"
+      },
+      {
+       "src": "img/game-pixel-art-5.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Teal factory stage with pipes and machinery on both sides and a row of creatures at the far end"
+      },
+      {
+       "src": "img/game-pixel-art-6.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Purple warehouse stage with crates and green barrels along a violet lane"
+      },
+      {
+       "src": "img/game-pixel-art-7.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Purple warehouse stage variant with hazard striped edges and green crates"
+      },
+      {
+       "src": "img/game-pixel-art-8.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Desert temple stage with a khaki lane, green stone borders and a toothy monster gate"
+      },
+      {
+       "src": "img/game-pixel-art-9.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Jungle stage with a deep green lane, leafy bushes and rocks, and a toothy monster gate"
+      },
+      {
+       "src": "img/game-pixel-art-10.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Level select grid on a red brick background with boss portraits in the corners and the hero in the center"
+      },
+      {
+       "src": "img/game-pixel-art-11.webp",
+       "w": 480,
+       "h": 272,
+       "alt": "Pixel shop screen reading Buy somethin will ya, with a hooded shopkeeper, torches and items for sale"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "bird-character-frames",
+   "title": "Bird Character Frames",
+   "category": "Game Art",
+   "summary": "Child-like paper cut-out styled character sprites for an unreleased mobile game.",
+   "tools": [
+    "Adobe Illustrator"
+   ],
+   "cover": {
+    "src": "img/bird-character-frames-cover.webp",
+    "w": 900,
+    "h": 900
+   },
+   "hero": {
+    "src": "img/bird-character-frames-hero.webp",
+    "w": 1400,
+    "h": 1400,
+    "alt": "Paper cut-out style yellow bird character with big eyes, a purple beak and blue wings"
+   },
+   "pixel": false,
+   "contain": true,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/bird-character-frames-1.webp",
+       "w": 926,
+       "h": 900,
+       "alt": "Yellow bird character with a purple beak, round eyes and blue wings, front view"
+      },
+      {
+       "src": "img/bird-character-frames-2.webp",
+       "w": 926,
+       "h": 900,
+       "alt": "Red rooster character with an angry brow, red comb and dark green wings"
+      },
+      {
+       "src": "img/bird-character-frames-3.webp",
+       "w": 926,
+       "h": 900,
+       "alt": "Red owl-like bird with yellow eyes and a goofy tongue sticking out"
+      },
+      {
+       "src": "img/bird-character-frames-4.webp",
+       "w": 887,
+       "h": 882,
+       "alt": "Blue crested bird with a long purple beak and sleepy eyes"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/bird-character-frames-5.webp",
+       "w": 887,
+       "h": 882,
+       "alt": "Red owl-like bird looking straight ahead with its tongue out, alternate frame"
+      },
+      {
+       "src": "img/bird-character-frames-6.webp",
+       "w": 887,
+       "h": 894,
+       "alt": "Red rooster character scowling, alternate frame"
+      },
+      {
+       "src": "img/bird-character-frames-7.webp",
+       "w": 883,
+       "h": 883,
+       "alt": "Yellow bird with a wide open dark beak mid-squawk"
+      },
+      {
+       "src": "img/bird-character-frames-8.webp",
+       "w": 887,
+       "h": 882,
+       "alt": "Blue and green bird with a small orange beak and curious round eyes"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/bird-character-frames-9.webp",
+       "w": 926,
+       "h": 900,
+       "alt": "Blue crested bird turning its head with its purple beak open"
+      },
+      {
+       "src": "img/bird-character-frames-10.webp",
+       "w": 887,
+       "h": 882,
+       "alt": "Bright yellow bird with a patterned crest, purple eyes and red and orange wings"
+      },
+      {
+       "src": "img/bird-character-frames-11.webp",
+       "w": 926,
+       "h": 900,
+       "alt": "Blue and green bird winking with its beak open"
+      },
+      {
+       "src": "img/bird-character-frames-12.webp",
+       "w": 926,
+       "h": 900,
+       "alt": "Yellow bird with star-shaped eyes and an open beak, wings spread"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "papercraft-pirate-ships",
+   "title": "Papercraft Pirate Ships",
+   "category": "Illustration",
+   "summary": "Vector pirate ships designed in a papercraft style.",
+   "tools": [
+    "Adobe Illustrator",
+    "Adobe Photoshop"
+   ],
+   "cover": {
+    "src": "img/papercraft-pirate-ships-cover.webp",
+    "w": 900,
+    "h": 1165
+   },
+   "hero": {
+    "src": "img/papercraft-pirate-ships-hero.webp",
+    "w": 1600,
+    "h": 2071,
+    "alt": "Printable Island Hoppin Pirates sheet with red and green pirate ship hull, sails and flag pieces to cut and fold"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/papercraft-pirate-ships-1.webp",
+       "w": 1600,
+       "h": 2071,
+       "alt": "Page 1, Fold your own pirate ships: printable red, green and cream ship pieces with yellow skull flags and a START label"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/papercraft-pirate-ships-2.webp",
+       "w": 1600,
+       "h": 2071,
+       "alt": "Page 2, Instructions A: illustrated step-by-step diagrams for folding the paper boat hull"
+      }
+     ]
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/papercraft-pirate-ships-3.webp",
+       "w": 1600,
+       "h": 2071,
+       "alt": "Page 3, Instructions B: steps for adding the mast, flag and sails to finish the pirate ship"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "slug": "cosmic-human-design",
+   "title": "Cosmic Human Design",
+   "category": "Illustration",
+   "summary": "A cosmic human design illustration.",
+   "tools": [
+    "Krita",
+    "Inkscape"
+   ],
+   "cover": {
+    "src": "img/cosmic-human-design-cover.webp",
+    "w": 900,
+    "h": 900
+   },
+   "hero": {
+    "src": "img/cosmic-human-design-hero.webp",
+    "w": 1100,
+    "h": 1100,
+    "alt": "Synthwave illustration of a glowing magenta sun over a neon grid horizon with drifting stars"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "",
+   "home_tile": "",
+   "blocks": [
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/cosmic-human-design-1.webp",
+       "w": 1100,
+       "h": 1100,
+       "alt": "Full view of the synthwave illustration: a magenta sun with a gold pixel pattern rising over a glowing cyan grid and a starfield"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
