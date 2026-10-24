@@ -71,13 +71,15 @@
     ]
    },
    {
-    "title": "Generative AI Artist and Creative Tools Builder",
+    "title": "Creative Technologist",
     "company": "Self-Employed",
     "when": "Feb 2026 – Present",
     "where": "Remote",
     "points": [
-     "Build ComfyUI and Stable Diffusion workflows with Python helpers for generation, upscaling, and cleanup",
-     "Work with agent harnesses and local agentic LLM inference on my own hardware"
+     "Build local ComfyUI image workflows on my own GPU server for generation, variation, upscaling, and cleanup",
+     "Write Python and JavaScript creative tools and pipeline scripts, with generic versions published on GitHub",
+     "Train a style LoRA on my own ink drawings, still in progress",
+     "Keep a daily illustration practice"
     ]
    },
    {
@@ -96,6 +98,15 @@
     "where": "New York, NY",
     "points": [
      "Produced and localized game logos and assets across many locales, with format checks and QA"
+    ]
+   },
+   {
+    "title": "Instructional Designer, Contract",
+    "company": "Udacity",
+    "when": "Jan 2017 – Apr 2017",
+    "where": "Remote",
+    "points": [
+     "Created instructional motion graphics for Udacity courses as a side contract"
     ]
    },
    {
