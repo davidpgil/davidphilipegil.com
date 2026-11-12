@@ -13,16 +13,18 @@
    "cover": {
     "src": "img/hermes-stage-cover.webp",
     "w": 900,
-    "h": 900
+    "h": 880
    },
    "hero": {
     "src": "img/hermes-stage-hero.webp",
-    "w": 1720,
-    "h": 861,
-    "alt": "Hermes Stage room view with six profiles answering the same question in one shared transcript"
+    "w": 1600,
+    "h": 1564,
+    "alt": "Hermes Stage main room with the ASCII HERMES STAGE header, a features list, and a short conversation in the shared transcript"
    },
    "pixel": false,
    "contain": false,
+   "tile_class": "hs-still",
+   "hero_fit": true,
    "tile": "w8 h2",
    "home_tile": "w8 h2",
    "blocks": [

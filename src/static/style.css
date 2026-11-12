@@ -173,5 +173,12 @@ a:hover .ar.al,a:focus-visible .ar.al{animation-name:nudgel}
 .feat-toggle:hover,.feat-toggle:focus-visible{color:#fff;border-color:rgba(255,255,255,.35)}
 .feat-toggle .ico{width:10px;height:12px;border-left:3px solid currentColor;border-right:3px solid currentColor;box-sizing:border-box}
 .feat-toggle[data-paused="1"] .ico{border-right:0;border-left:0;width:0;height:0;border-top:6px solid transparent;border-bottom:6px solid transparent;border-left:10px solid currentColor}
+/* Hermes Stage still: show the ASCII header and conversation in the featured tile */
+.tile.hs-still .ph{background:#002b36}
+.tile.hs-still .ph img{object-fit:contain;object-position:center center}
+.tile.hs-still::before{background:linear-gradient(180deg,transparent 70%,rgba(5,7,13,.88) 84%,rgba(5,7,13,.96))}
+@media(max-width:720px){.tile.hs-still.h2{grid-row:span 2}}
+.stage.fit{background:#002b36}
+.stage.fit img{width:auto;max-width:100%;height:auto;max-height:78vh;object-fit:contain}
 /* touch screens: always show tools list */
 @media (hover:none){.tile .tools{max-height:40px;opacity:1}}

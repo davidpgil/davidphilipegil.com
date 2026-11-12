@@ -62,7 +62,7 @@ def srcset(src, root=''):
 
 
 def tile(p, size, root=''):
-    cls = ' '.join(x for x in ('tile rv', size, 'contain' if p['contain'] else '') if x)
+    cls = ' '.join(x for x in ('tile rv', size, 'contain' if p['contain'] else '', p.get('tile_class', '')) if x)
     cv = p['cover']
     sizes = TILE_SIZES['wide' if 'w8' in size else 'normal']
     im = img(cv['src'], cv['w'], cv['h'], p['title'] + ' cover', root, pixel=p['pixel'],
@@ -145,7 +145,7 @@ def build_projects():
         pv, nx = PROJECTS[i - 1], PROJECTS[(i + 1) % n]
         hero = p['hero']
         body = render('project', hero_src=hero['src'], category=p['category'], title=E(p['title']),
-                      stage_cls=' pix' if p['pixel'] else '',
+                      stage_cls=(' ' + ' '.join(x for x in ('pix' if p['pixel'] else '', 'fit' if p.get('hero_fit') else '') if x)).rstrip() or '',
                       hero_img=img(hero['src'], hero['w'], hero['h'], hero['alt'], '../', eager=True, pixel=p['pixel']),
                       summary=E(p['summary']), chips=''.join(f'<span>{E(t)}</span>' for t in p['tools']),
                       media=''.join(media_block(b, p) for b in p['blocks']),
