@@ -1,6 +1,73 @@
 {
  "projects": [
   {
+   "slug": "hermes-stage",
+   "title": "Hermes Stage",
+   "category": "Tools & Automation",
+   "summary": "Hermes Stage is a public Hermes Agent plugin that launches a multi-profile terminal bot room with a shared transcript, profile lenses, and tool and diff cards. I built it solo in Python and Node.js as my entry for the Nous Hermes Plugin Hackathon. Run it with the hermes stage command. It is released under the MIT license.",
+   "tools": [
+    "Python",
+    "Node.js",
+    "Hermes Agent"
+   ],
+   "cover": {
+    "src": "img/hermes-stage-cover.webp",
+    "w": 900,
+    "h": 900
+   },
+   "hero": {
+    "src": "img/hermes-stage-hero.webp",
+    "w": 1720,
+    "h": 861,
+    "alt": "Hermes Stage room view with six profiles answering the same question in one shared transcript"
+   },
+   "pixel": false,
+   "contain": false,
+   "tile": "w8 h2",
+   "home_tile": "w8 h2",
+   "blocks": [
+    {
+     "type": "links",
+     "links": [
+      {
+       "label": "View on GitHub",
+       "href": "https://github.com/davidpgil/hermes-stage"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Profile lenses switch the room to a single profile's view."
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/hermes-stage-1.webp",
+       "w": 982,
+       "h": 241,
+       "alt": "Hahn profile lens in Hermes Stage, showing Hahn's reply with the profile tabs below"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "text": "Tool and diff cards show each change right in the shared transcript."
+    },
+    {
+     "type": "images",
+     "images": [
+      {
+       "src": "img/hermes-stage-2.webp",
+       "w": 982,
+       "h": 180,
+       "alt": "Diff card in the Hermes Stage transcript replacing one line of an announcement file"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "slug": "psd-localization-extendscript",
    "title": "Localization Pipeline Script",
    "category": "Tools & Automation",
@@ -23,7 +90,7 @@
    "pixel": false,
    "contain": false,
    "tile": "w8 h2",
-   "home_tile": "w8 h2",
+   "home_tile": "",
    "blocks": [
     {
      "type": "video",

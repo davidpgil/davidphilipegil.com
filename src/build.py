@@ -107,11 +107,8 @@ def build_home():
     marq = '<div class="marq" aria-hidden="true"><div>' + ''.join(f'<span>{t}</span>' for t in CONTENT['marquee'] * 2) + '</div></div>'
     caps = ''.join(f'<div class="cap rv"><b>0{i + 1}</b><h3>{c["title"]}</h3><p>{c["text"]}</p></div>'
                    for i, c in enumerate(CONTENT['capabilities']))
-    feat = json.dumps([dict(u=f'projects/{p["slug"]}.html', i=p['cover']['src'], s=srcset(p['cover']['src']),
-                            c=p['category'], t=p['title'], o=' · '.join(p['tools']), k=int(p['contain']), x=int(p['pixel']))
-                       for p in PROJECTS], ensure_ascii=False).replace('</', '<\\/')
     body = render('home', arrow=ARROW, resume_ghost=resume_link('btn ghost mag'), marquee=marq,
-                  tiles=''.join(tile(p, p['home_tile']) for p in PROJECTS[:6]), featjson=feat, caps=caps)
+                  tiles=''.join(tile(p, p['home_tile']) for p in PROJECTS[:6]), caps=caps)
     page('index.html', 'David Philipe Gil · Creative Technologist', body, '', active='Home')
 
 
@@ -126,6 +123,11 @@ def build_work():
 def media_block(b, p):
     if b['type'] == 'note':
         return f'<p class="note rv">{E(b["text"])}</p>'
+    if b['type'] == 'links':
+        return ('<div class="ctas rv">' + ''.join(
+            f'<a class="btn {"pri" if i == 0 else "ghost"} mag" href="{E(l["href"])}" target="_blank" rel="noopener" '
+            f'aria-label="{E(l["label"])}, opens in a new tab">{E(l["label"])} {ARROW}</a>'
+            for i, l in enumerate(b['links'])) + '</div>')
     if b['type'] == 'video':
         return (f'<div class="video rv"><iframe src="{E(b["src"])}" title="{E(p["title"])} video" loading="lazy" '
                 f'allow="fullscreen" allowfullscreen></iframe></div>')
